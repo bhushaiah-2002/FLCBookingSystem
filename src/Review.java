@@ -7,7 +7,7 @@ public class Review {
     public Review(String text, int rating, Member user, Lesson lesson) {
         this.reviewText = text;
         this.ratingValue = rating;
-        this.user = user;
+    
         this.lesson = lesson;
     }
 
