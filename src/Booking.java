@@ -21,7 +21,7 @@ public class Booking {
         if (newLesson.bookSeat()) {
             lesson.cancelSeat();
            
-            status = "changed";
+           
             return true;
         }
         return false;
