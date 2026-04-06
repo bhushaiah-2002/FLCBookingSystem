@@ -85,7 +85,7 @@ public class Main {
         }
     }
 
-    static void changeOrCancel(Timetable timetable, Member member) {
+    {
         List<Booking> active = getActiveBookings(member);
        
         printBookings(active);
