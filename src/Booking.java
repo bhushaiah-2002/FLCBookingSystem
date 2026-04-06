@@ -20,7 +20,7 @@ public class Booking {
     public boolean changeLesson(Lesson newLesson) {
         if (newLesson.bookSeat()) {
             lesson.cancelSeat();
-            lesson = newLesson;
+           
             status = "changed";
             return true;
         }
