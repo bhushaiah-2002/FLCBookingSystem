@@ -17,7 +17,7 @@ public class Lesson {
         this.lessonDay = day;
         this.lessonTime = time;
         
-        this.maxSeats = maxSeats;
+        
         this.lessonPrice = price;
         this.bookedSeats = 0;
         this.reviews = new ArrayList<>();
