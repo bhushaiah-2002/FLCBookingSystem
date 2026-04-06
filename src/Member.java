@@ -17,7 +17,7 @@ public class Member {
 
     public String getUserName() { return userName; }
 
-    public boolean hasBooking(Lesson lesson) {
+    public boolean Booking(Lesson lesson) {
         for (Booking b : userBookings)
             if (b.getLesson() == lesson && !b.getStatus().equals("cancelled")) return true;
         return false;
