@@ -16,7 +16,7 @@ public class Lesson {
         this.lessonType = type;
         this.lessonDay = day;
         this.lessonTime = time;
-        this.month = month;
+        
         this.maxSeats = maxSeats;
         this.lessonPrice = price;
         this.bookedSeats = 0;
