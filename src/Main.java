@@ -87,8 +87,7 @@ public class Main {
 
     static void changeOrCancel(Timetable timetable, Member member) {
         List<Booking> active = getActiveBookings(member);
-        if (active.isEmpty()) { System.out.println("No active bookings."); return; }
-
+       
         printBookings(active);
         System.out.print("Enter Booking ID: ");
         int bid = readInt();
