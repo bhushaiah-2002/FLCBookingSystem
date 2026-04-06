@@ -21,7 +21,7 @@ public class Report {
                         l.getLessonId(),
                         l.getLessonType(),
                         l.getLessonDay(),
-                        l.getLessonTime(),
+                       
                         l.getAttendedCount(),
                         l.getAttendedCount() > 0
                                 ? String.format("%.2f", l.getAverageRating())
