@@ -19,7 +19,7 @@ public class Timetable {
         return result;
     }
 
-    public Lesson searchById(int id) {
+    public Lesson ById(int id) {
         for (Lesson l : lessonList)
             if (l.getLessonId() == id) return l;
         return null;
