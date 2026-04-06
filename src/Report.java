@@ -13,7 +13,7 @@ public class Report {
                 "ID", "Type", "Day", "Time", "Attended", "Avg Rating");
         System.out.println("-".repeat(62));
 
-        boolean found = false;
+       
         for (Lesson l : lessons) {
             if (l.getMonth() == month) {
                 found = true;
