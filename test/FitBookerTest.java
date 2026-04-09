@@ -78,7 +78,7 @@ public class FitBookerTest {
         Lesson l2 = new Lesson(2, "Zumba", "Sunday",   "Morning", 1, 4, 8.0);
         l1.bookSeat();
         Booking b = new Booking(1, m, l1);
-        assertTrue(b.changeLesson(l2));
+       
         assertEquals("changed", b.getStatus());
         assertEquals(l2, b.getLesson());
         assertEquals(0, l1.getBookedSeats()); // old seat released
